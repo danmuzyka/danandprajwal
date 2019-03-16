@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Dan and Prajwal`,
     description: `Our relationship, our love, and our lifetime of adventure together`,
-    author: `@gatsbyjs`,
+    author: `@danmuzyka`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,6 +27,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    'resolve-url-loader',
     'gatsby-plugin-sass',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline

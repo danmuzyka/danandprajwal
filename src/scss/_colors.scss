@@ -2,10 +2,6 @@
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/mixins";
 
-$bg-color: #030303;
-$color-parchment: hsl(30, 70%, 85%);
-$color-purple: #550080;
-
 $theme-colors: (
   "primary": hsl(280, 100%, 25%),
   "secondary": #243EAC,
@@ -13,3 +9,6 @@ $theme-colors: (
   "light": hsl(30, 70%, 90%),
   "dark": hsl(0, 0%, 15%)
 );
+
+$bg-color: theme-color("secondary");
+$color-parchment: theme-color("light");
