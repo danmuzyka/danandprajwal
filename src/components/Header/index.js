@@ -9,19 +9,23 @@ const Header = ({ siteTitle }) => (
     style={{
       marginBottom: `1.45rem`,
     }}
+    className="page-header"
   >
     <div
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: `4rem 1.0875rem`,
       }}
+      className="page-header__bg-image"
     >
-      <h1 style={{ margin: 0 }}>
+      <h1
+        style={{ margin: 0 }}
+        className="page-header__heading"
+      >
         <Link
           to="/"
           style={{
-            color: `white`,
             textDecoration: `none`,
           }}
         >

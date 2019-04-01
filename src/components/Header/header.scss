@@ -5,5 +5,54 @@
 @import "../../scss/colors";
 
 header {
-  background: $bg-color;
+  &.page-header {
+    background-color: theme-color("dark");
+    color: theme-color("light");
+    padding: 1.0875rem 0;
+    text-shadow: theme-color("dark") 1px 1px 10px;
+
+    @media (min-width: 960px) {
+      padding: 2rem 0;
+    }
+
+    a {
+      color: theme-color("tertiary");
+    }
+  }
+}
+
+.page-header__bg-image {
+  background-image: url("../../images/header-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-header__heading {
+  position: relative;
+  top: -2.5rem;
+
+  @media (min-width: 550px) {
+    font-size: 3rem;
+  }
+
+  @media (min-width: 625px) {
+    letter-spacing: 0.1rem;
+    word-spacing: 0.5rem;
+  }
+
+  @media (min-width: 700px) {
+    letter-spacing: 0.5rem;
+    word-spacing: 1rem;
+  }
+
+  @media (min-width: 800px) {
+    letter-spacing: 0.75rem;
+    word-spacing: 1.5rem;
+  }
+
+  @media (min-width: 960px) {
+    letter-spacing: 1.25rem;
+    word-spacing: 2rem;
+  }
 }
