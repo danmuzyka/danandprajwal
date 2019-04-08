@@ -1,6 +1,6 @@
 ---
-title: "Sweet Pandas Eating Sweets"
-date: "2017-08-10"
+title: "Dan and Prajwal's Wedding"
+date: "2019-09-01"
 ---
 
 Pandas are really sweet.
