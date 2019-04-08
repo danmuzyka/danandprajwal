@@ -5,10 +5,13 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@mdx-js/mdx": "^0.20.3",
+    "@mdx-js/tag": "^0.20.3",
     "bootstrap": "4.2.1",
     "dotenv": "^7.0.0",
     "gatsby": "^2.3.4",
     "gatsby-image": "^2.0.29",
+    "gatsby-mdx": "^0.4.5",
     "gatsby-plugin-manifest": "^2.0.17",
     "gatsby-plugin-offline": "^2.0.24",
     "gatsby-plugin-react-helmet": "^3.0.6",
