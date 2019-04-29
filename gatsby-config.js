@@ -12,6 +12,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-mdx`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -78,7 +79,6 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-mdx`,
     'resolve-url-loader',
     'gatsby-plugin-sass',
     // this (optional) plugin enables Progressive Web App + Offline functionality
