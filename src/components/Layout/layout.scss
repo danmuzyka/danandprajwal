@@ -64,10 +64,13 @@ template {
 }
 a {
   background-color: transparent;
+  color: theme-color("primary");
+  font-weight: bold;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
+  color: theme-color("secondary");
   outline-width: 0;
 }
 abbr[title] {
@@ -339,6 +342,14 @@ h6 {
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: theme-color("primary");
+  margin-top: 2.5rem;
+  
+  a {
+    color: theme-color("primary");
+  }
 }
 hgroup {
   margin-left: 0;
@@ -657,4 +668,5 @@ pre tt:after {
 }
 .footer__content {
   @include center-col;
+  font-size: 0.75em;
 }

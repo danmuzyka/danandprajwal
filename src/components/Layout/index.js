@@ -24,9 +24,7 @@ const Layout = ({ children }) => (
         </div>
         <footer className="footer">
           <div className="footer__content">
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            © {new Date().getFullYear()}, Dan Karur-O'Brien Muzyka and Prajwal Karur-O'Brien Mohan
           </div>
         </footer>
       </div>
