@@ -11,14 +11,7 @@ const Header = ({ siteTitle }) => (
     }}
     className="page-header"
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `4rem 1.0875rem`,
-      }}
-      className="page-header__bg-image"
-    >
+    <div className="page-header__bg-image">
       <h1
         style={{ margin: 0 }}
         className="page-header__heading"

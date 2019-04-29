@@ -1,8 +1,9 @@
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/mixins";
-@import "../../scss/_colors";
-@import "../../scss/_text";
+@import "../../scss/colors";
+@import "../../scss/text";
+@import "../../scss/mixins";
 
 @import "../../../node_modules/bootstrap/scss/root";
 @import "../../../node_modules/bootstrap/scss/reboot";
@@ -636,4 +637,24 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+.page-wrapper {
+  padding-bottom: 3rem;
+  position: relative;
+}
+.page-main {
+  @include center-col;
+  padding-bottom: 1.45rem;
+}
+.footer {
+  background-color: theme-color("dark");
+  bottom: 0;
+  color: theme-color("light");
+  height: 3rem;
+  line-height: 3rem;
+  position: absolute;
+  width: 100%;
+}
+.footer__content {
+  @include center-col;
 }

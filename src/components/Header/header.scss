@@ -3,6 +3,7 @@
 @import "../../../node_modules/bootstrap/scss/mixins";
 
 @import "../../scss/colors";
+@import "../../scss/mixins";
 
 header {
   &.page-header {
@@ -22,10 +23,13 @@ header {
 }
 
 .page-header__bg-image {
+  @include center-col;
   background-image: url("../../images/header-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
 }
 
 .page-header__heading {
