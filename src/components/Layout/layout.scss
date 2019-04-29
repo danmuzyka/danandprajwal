@@ -7,6 +7,7 @@
 @import "../../../node_modules/bootstrap/scss/root";
 @import "../../../node_modules/bootstrap/scss/reboot";
 @import "../../../node_modules/bootstrap/scss/type";
+@import "../../../node_modules/bootstrap/scss/buttons";
 
 html {
   font-family: sans-serif;
@@ -18,6 +19,7 @@ body {
   background: theme-color("light");
   color: theme-color("dark");
   font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 0.85rem;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -74,8 +76,14 @@ abbr[title] {
 }
 b,
 strong {
+  font-family: "Libre Baskerville Bold", Georgia, serif;
   font-weight: inherit;
   font-weight: bolder;
+}
+i,
+em {
+  font-family: "Libre Baskerville Italic", Georgia, serif;
+  font-style: italic;
 }
 dfn {
   font-style: italic;
