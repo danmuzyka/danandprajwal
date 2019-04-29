@@ -1,17 +1,18 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "dan-and-prajwal",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A website about the love, relationship, and wedding of Dan and Prajwal",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Dan Muzyka <dan@danmuzyka.com>",
   "dependencies": {
-    "@mdx-js/mdx": "^0.20.3",
+    "@mdx-js/mdx": "^1.0.15",
+    "@mdx-js/react": "^1.0.15",
     "@mdx-js/tag": "^0.20.3",
     "bootstrap": "4.2.1",
     "dotenv": "^7.0.0",
-    "gatsby": "^2.3.4",
+    "gatsby": "^2.3.32",
     "gatsby-image": "^2.0.29",
-    "gatsby-mdx": "^0.4.5",
+    "gatsby-mdx": "^0.6.2",
     "gatsby-plugin-manifest": "^2.0.17",
     "gatsby-plugin-offline": "^2.0.24",
     "gatsby-plugin-react-helmet": "^3.0.6",
@@ -22,8 +23,8 @@
     "gatsby-transformer-remark": "^2.3.8",
     "gatsby-transformer-sharp": "^2.1.13",
     "prop-types": "^15.6.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
@@ -32,6 +33,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "clean": "gatsby clean",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -45,9 +47,13 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "devDependencies": {
+    "ajv": "^6.10.0",
     "eslint": "^5.13.0",
     "eslint-plugin-react": "^7.12.4",
-    "node-sass": "^4.11.0",
-    "resolve-url-loader": "^3.0.1"
+    "jquery": "^3.4.0",
+    "node-sass": "^4.12.0",
+    "popper.js": "^1.15.0",
+    "resolve-url-loader": "^3.0.1",
+    "typescript": "^3.4.5"
   }
 }
