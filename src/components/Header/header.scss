@@ -5,19 +5,60 @@
 @import "../../scss/colors";
 @import "../../scss/mixins";
 
+@import "../../../node_modules/bootstrap/scss/utilities/position";
+@import "../../../node_modules/bootstrap/scss/transitions";
+@import "../../../node_modules/bootstrap/scss/nav";
+@import "../../../node_modules/bootstrap/scss/navbar";
+
+nav.navbar {
+  background-color: theme-color("secondary");
+  margin: 0 0 1.0875rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  @include media-breakpoint-up("sm") {
+    padding: 0.5rem 0;
+  }
+
+  @media (min-width: 960px) {
+    margin: 0 0 2rem 0;
+  }
+
+  .navbar-collapse {
+    margin: 0 auto;
+    max-width: 960px;
+
+    a.nav-link {
+      color: theme-color("light");
+
+      @include media-breakpoint-up("sm") {
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+
+  ul.navbar-nav {
+    margin: 0;
+  }
+  li.nav-item {
+    margin: 0;
+  }
+}
+
 header {
   &.page-header {
     background-color: theme-color("dark");
     color: theme-color("light");
-    padding: 1.0875rem 0;
+    padding: 4.5875rem 0 1.0875rem 0;
     text-shadow: theme-color("dark") 1px 1px 10px;
-
-    @media (min-width: 960px) {
-      padding: 2rem 0;
+    
+    @include media-breakpoint-up("sm") {
+      padding: 4.0875rem 0 1.0875rem 0;;
     }
 
-    a {
-      color: theme-color("tertiary");
+    @include media-breakpoint-up("lg") {
+      padding: 5rem 0 2rem 0;
     }
   }
 }
@@ -30,6 +71,10 @@ header {
   background-size: cover;
   padding-bottom: 4rem;
   padding-top: 4rem;
+
+  a:link, a:hover, a:visited {
+    color: theme-color("tertiary");
+  }
 }
 
 .page-header__heading {
