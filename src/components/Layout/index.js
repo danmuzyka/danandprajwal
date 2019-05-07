@@ -24,7 +24,7 @@ const Layout = ({ children }) => (
         </div>
         <footer className="footer">
           <div className="footer__content">
-            © {new Date().getFullYear()}, Dan Karur-O'Brien Muzyka and Prajwal Karur-O'Brien Mohan
+            Produced by Dan Karur-O'Brien Muzyka and Prajwal Karur-O'Brien Mohan
           </div>
         </footer>
       </div>
