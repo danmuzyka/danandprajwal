@@ -650,4 +650,9 @@ pre tt:after {
 .footer__content {
   @include center-col;
   font-size: 0.75em;
+  line-height: 1.5rem;
+  
+  @include media-breakpoint-up("sm") {
+    line-height: 3rem;
+  }
 }
