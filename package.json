@@ -24,11 +24,13 @@
     "gatsby-source-google-spreadsheet": "^1.2.0",
     "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "^2.1.19",
+    "iframe-resizer": "^4.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-iframe-resizer-super": "^0.2.2"
   },
   "keywords": [
     "gatsby"
